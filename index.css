@@ -31,10 +31,10 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
-/* Universal selector styles */
+/* Universal Selector Styles */
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
+   /*   border: 1px solid grey; */
     padding: 0;
     margin: 0;
     max-width: 100%;
@@ -49,7 +49,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     color: #4f4f4f;
-    font-family: ;
+    font-family: 'Roboto Mono';
 }
 
 h1 {
@@ -64,7 +64,7 @@ a {
     text-decoration: none;
 }
 
-/* Header section styles */
+/* Header Section Styles */
 
 nav {
     padding: 2% 0;
@@ -72,26 +72,27 @@ nav {
 
 nav a {
     display: inline-block;
-    padding: 1% 0;
+    padding: .5% 0;
     width: 10%;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
-    color: white;
+    color: #fff;
+    font-size: 2rem;
 }
 
 .anchor1 {
     background-color: #FF764E;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .anchor2 {
     background-color: #5ED3EB;
-    margin: 0 24%;
+    margin: 0 18%;
 }
 
 .anchor3 {
     background-color: #FFCD69;
-    margin-right: 10%;
+    margin-right: 15%;
 }
 
 /* Top Section Styles */
@@ -105,13 +106,104 @@ nav a {
 
 .left {
     width: 35%;
+    position: relative;
+    right: 33%;
+
 }
 
 .left img {
     width: 80%;
     border-radius: 50%;
+
 }
 
 .right {
     width: 60%;
+    position: absolute;
+    right: 10%;
+}
+
+.right p {
+    display: inline-block;
+    font-size: 3rem;
+    width: 60%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 9rem;
+    margin: 4%;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 0 0 3%;
+}
+
+
+/* Text Section */
+
+.mid {
+    padding-bottom: 0;
+}
+
+.text-section {
+    background-color: #DDB9A3;
+    color: #fff;
+    margin: 0 4% 0;
+    font-size: 3rem;
+    text-align: center;
+    padding: .5% 2%;
+   
+}
+
+.text-section p {
+    margin: 1%;
+}
+
+/* Image Section */
+
+.img-section p {
+    width: 20%;
+    margin: 1% 0 1% 40%;
+}
+
+.img-section a {
+    font-weight: bold;
+    color: #4f4f4f;
+}
+
+.image1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.image1 img {
+    width: 12%;
+}
+
+.image2 {
+    text-align: center;
+}
+
+.image2 img {
+    width: 12%;
+    margin-top: 1.5%;
+}
+
+
+/* Footer Image */
+
+.footer-img {
+    background-image: url(assets/footer_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+}
+
+/* Footer */
+
+footer nav {
+    background-color: #F9E7DC;
 }
