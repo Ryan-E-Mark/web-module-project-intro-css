@@ -80,6 +80,10 @@ nav a {
     font-size: 2rem;
 }
 
+nav a:hover {
+    background-color: #50CB93;
+}
+
 .anchor1 {
     background-color: #FF764E;
     margin-left: 15%;
@@ -108,13 +112,11 @@ nav a {
     width: 35%;
     position: relative;
     right: 33%;
-
 }
 
 .left img {
     width: 80%;
     border-radius: 50%;
-
 }
 
 .right {
